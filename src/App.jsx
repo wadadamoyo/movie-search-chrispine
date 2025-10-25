@@ -24,7 +24,7 @@ function MovieSite() {
     </div>
        <div className="container">
           <h1 className='tagline'>Your Gateway to the world of Movies.</h1>
-          <a className="watch-btn" href="">watch more</a>
+          <a className="watch-btn" href="" target='_blank'>watch more</a>
        </div>
 
        <div className="footer">

@@ -28,7 +28,10 @@ function MovieSite() {
        </div>
 
        <div className="footer">
-        <p> &copy; Chris movie 2025</p>
+        <i className='fab fa-facebook'></i>
+        <i className='fab fa-twitter'></i>
+        <i className='fab fa-instagram'></i>
+        <p> &copy; Chris movies 2025</p>
        </div>
     </>
   )

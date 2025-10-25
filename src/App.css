@@ -17,7 +17,16 @@ body {
   width: 100%;
   color: #fff;
   font-family: 'Poppins', sans-serif;
-  height: 100vh;
+  min-height: 100vh;
+}
+
+.logo {
+  background: linear-gradient(to left, #2e5d15 , #83c460);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  padding: 5px;
+  border-bottom: solid 2px #1b380b;
 }
 .sub {
   background-color:#2e5d15;
@@ -64,11 +73,11 @@ button {
   align-items: center;
   text-align: center;
   flex-direction: column;
-  height: 70vh;
+  height: 100vh;
 }
 
 .tagline {
-  font-size: 1.2rem;
+  font-size: 2rem;
   color: #ccc;
   margin-bottom: 30px;
 }
@@ -87,10 +96,19 @@ button {
 a:hover {
   background-color:  #1b380b;
 }
+.footer i {
+  margin-left: 5px;
+  color: #ccc;
+}
 
 .footer {
-  position: relative;
-  bottom: 0;
+  text-align: center;
+  align-items: flex-end;
+  padding:20px;
+  width: 100%;
+  font-size: 0.9rem;
+  color: #ccc;
+  background-color: #1b380b;
 
 }
 

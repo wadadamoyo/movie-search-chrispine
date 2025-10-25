@@ -41,6 +41,16 @@ button {
   font-size: 1.6rem;
 }
 
+.chooseLinks {
+  display: flex;
+  gap: 20px;
+}
+
+.chooseLinks a:hover , .headerLinks .log:hover {
+  background-color: transparent;
+  color: #2e5d15;
+}
+
 
 .header {
   display: flex;
@@ -76,4 +86,20 @@ button {
 
 a:hover {
   background-color:  #1b380b;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+
+}
+
+@media (max-width: 700px) {
+  .chooseLinks {
+    display: none;
+  }
+
+  a {
+    padding: 7px;
+  }
 }

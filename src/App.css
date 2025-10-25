@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+/* 
 
+my color pallete 
+96A78D
+B6CEB4
+D9E9CF
+F0F0F0
+*/
 * {
   margin: 0;
   padding: 0;
@@ -9,12 +16,10 @@ a {
   text-decoration: none;
 }
 body {
-  background: linear-gradient(135deg, #1e1e1e, #3a3a3a);
+  background: url(../src/assets/squidgame-s3-hed.jpg) no-repeat center center / cover;
+  width: 100%;
   color: #fff;
   font-family: 'Poppins', sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
 }
 

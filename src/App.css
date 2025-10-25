@@ -99,7 +99,14 @@ a:hover {
     display: none;
   }
 
-  a {
-    padding: 7px;
+  a , .watch-btn{
+  font-size: .8rem;
+  }
+}
+
+
+@media (max-width: 400px) {
+  a{
+    font-size: .5rem;
   }
 }
